@@ -1,7 +1,7 @@
 # BasicArabicOCR
 A very basic Arabic OCR based on tesseract OCR engine written in Java.
 
-### Instructions to run
+### How to run
 Firstly, downlaad the following files and extract them.
 
 [Tess4J-2.0-src_2.zip](https://www.dropbox.com/s/cb9jwpogk0w8tzi/Tess4J-2.0-src_2.zip?dl=0)
@@ -15,9 +15,8 @@ Secondly, open the project using the NetBeans IDE and then right click on the Li
 - jai_imageio.jar
 - jna.jar
 
-repeat the previous process to add the tess4j.jar file located in the Tess4J\dist directory
+repeat the previous process to add the "tess4j.jar" file located in the Tess4J\dist directory
 
-
-open the class "ProcessImage.java" and in the "getResult()" method past the path of tessdata directory
+finally, open the class "ProcessImage.java" and find the "instance.setDatapath" using ctrl+f and paste the path of the tessdata directory located in the tesseract-ocr\tessdata
 
 
