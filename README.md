@@ -14,6 +14,7 @@ Secondly, open the project using the NetBeans IDE and then right click on the Li
 - ghost4j-0.5.1.jar
 - jai_imageio.jar
 - jna.jar
+- win32-x86-64
 
 repeat the previous process to add the "tess4j.jar" file located in the Tess4J\dist directory
 
